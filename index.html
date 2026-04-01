@@ -1,168 +1,142 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Publicista</title>
 
-  <title>Fotógrafo de Moda Profesional | Editorial & Branding</title>
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 
-  <!-- SEO -->
-  <meta name="description" content="Fotógrafo profesional de moda especializado en editoriales, campañas y branding para marcas. Agenda tu sesión y eleva tu imagen." />
-  <meta name="keywords" content="fotógrafo de moda, fotografía editorial, fotógrafo profesional, sesiones de moda, branding visual" />
-  <meta name="author" content="Fotógrafo de Moda" />
-
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
-
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
   <!-- CSS -->
   <link rel="stylesheet" href="styles.css">
 
-<!-- Meta Pixel Code -->
-<script>
-!function(f,b,e,v,n,t,s)
-{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)}(window, document,'script',
-'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '2673812489668070');
-fbq('track', 'PageView');
-</script>
-<noscript><img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=2673812489668070&ev=PageView&noscript=1"
-/></noscript>
-<!-- End Meta Pixel Code -->
-
-
-  <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-0WEJT9GMF9"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-0WEJT9GMF9');
-</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KJCPRVH7');</script>
+<!-- End Google Tag Manager -->
 
 </head>
 
 <body>
 
-  <!-- HEADER / NAVBAR -->
-  <header class="header">
-    <nav class="navbar container">
-      <div class="logo">
-        <a href="#inicio">FM Studio</a>
-      </div>
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KJCPRVH7"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 
-      <ul class="nav-links">
-        <li><a href="#inicio">Inicio</a></li>
-        <li><a href="#portafolio">Portafolio</a></li>
-        <li>
-          <a href="#contacto" class="nav-cta">Solicitar sesión</a>
-        </li>
-      </ul>
-    </nav>
-  </header>
+<!-- HEADER -->
+<header class="header">
+  <nav class="nav container">
+    <h1 class="logo">Promarketing</h1>
 
-  <!-- HERO / SLIDER -->
-  <section id="inicio" class="hero">
-    <div class="slider">
+    <ul class="nav__menu" id="menu">
+      <li><a href="#">Inicio</a></li>
+      <li><a href="#servicios">Servicios</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
 
-      <div class="slide active" style="background-image: url('https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&w=1600&q=80');">
-        <div class="overlay"></div>
-        <div class="slide-content container">
-          <h1>Fotografía de Moda Editorial</h1>
-          <p>Imágenes que elevan tu marca y transmiten estilo, identidad y elegancia.</p>
-          <a href="#contacto" class="btn-primary">Agendar sesión</a>
-        </div>
-      </div>
-
-      <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=1600&q=80');">
-        <div class="overlay"></div>
-        <div class="slide-content container">
-          <h1>Campañas & Branding</h1>
-          <p>Producciones visuales pensadas para marcas de moda contemporáneas.</p>
-          <a href="#contacto" class="btn-primary">Cotizar ahora</a>
-        </div>
-      </div>
-
-      <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1520975916090-3105956dac38?auto=format&fit=crop&w=1600&q=80');">
-        <div class="overlay"></div>
-        <div class="slide-content container">
-          <h1>Estética. Moda. Impacto.</h1>
-          <p>Sesiones profesionales para editoriales, diseñadores y modelos.</p>
-          <a href="#contacto" class="btn-primary">Trabajemos juntos</a>
-        </div>
-      </div>
-
-      <!-- CONTROLES -->
-      <div class="slider-dots">
-        <span class="dot active" data-slide="0"></span>
-        <span class="dot" data-slide="1"></span>
-        <span class="dot" data-slide="2"></span>
-      </div>
-
+    <div class="menu-toggle" id="toggle">
+      <i class="fas fa-bars"></i>
     </div>
-  </section>
+  </nav>
+</header>
 
-  <!-- SOBRE MI -->
-  <section class="about container">
-    <div class="about-image">
-      <img src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=800&q=80" alt="Fotógrafo de moda profesional">
-    </div>
-    <div class="about-content">
-      <h2>Sobre mí</h2>
-      <p>
-        Soy fotógrafo profesional especializado en moda, editoriales y campañas visuales.
-        Trabajo con marcas, modelos y diseñadores que buscan una imagen auténtica,
-        elegante y alineada a su identidad.
-      </p>
-    </div>
-  </section>
+<main>
 
-  <!-- PORTAFOLIO -->
-  <section id="portafolio" class="portfolio container">
-    <h2>Proyectos Destacados</h2>
+<!-- HERO -->
+<section class="hero">
+  <div class="container hero__content">
+    <h2>Impulsa tu marca al siguiente nivel</h2>
+    <p>Estrategias que convierten tráfico en clientes</p>
+    <a href="#contacto" class="btn">Trabajemos juntos</a>
+  </div>
+</section>
 
-    <div class="bento-grid">
-      <img src="https://images.unsplash.com/photo-1503341455253-b2e723bb3dbb?auto=format&fit=crop&w=800&q=80" alt="Proyecto moda editorial">
-      <img src="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?auto=format&fit=crop&w=800&q=80" alt="Fotografía de campaña">
-      <img src="https://images.unsplash.com/photo-1503341455253-b2e723bb3dbb?auto=format&fit=crop&w=800&q=80" alt="Sesión de moda profesional">
-      <img src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&w=800&q=80" alt="Editorial de moda">
-    </div>
-  </section>
+<!-- SERVICIOS -->
+<section id="servicios" class="servicios container">
+  <h2 class="section__title">Servicios</h2>
 
-  <!-- CONTACTO -->
-  <section id="contacto" class="contact container">
-    <h2>Agenda tu sesión</h2>
-    <p>Cuéntame sobre tu proyecto y te responderé a la brevedad.</p>
+  <div class="grid">
+    <article class="card">
+      <i class="fas fa-laptop-code icon"></i>
+      <h3>Diseño Web</h3>
+      <p>Webs optimizadas para conversión y velocidad.</p>
+    </article>
 
-    <form action="gracias.html" method="GET" class="contact-form">
-      <input type="text" name="nombre" placeholder="Nombre completo" required>
-      <input type="email" name="email" placeholder="Correo electrónico" required>
-      <textarea name="mensaje" placeholder="Cuéntame sobre tu proyecto" required></textarea>
-      <button type="submit" class="btn-primary">Enviar mensaje</button>
-    </form>
-  </section>
+    <article class="card">
+      <i class="fas fa-bullhorn icon"></i>
+      <h3>Publicidad Digital</h3>
+      <p>Campañas en Meta Ads y Google Ads.</p>
+    </article>
 
-  <!-- FOOTER -->
-  <footer class="footer">
-    <p>© 2026 Fotógrafo de Moda · Todos los derechos reservados</p>
-  </footer>
+    <article class="card">
+      <i class="fas fa-chart-line icon"></i>
+      <h3>Estrategia</h3>
+      <p>Marketing basado en datos reales.</p>
+    </article>
+  </div>
+</section>
 
-  <!-- WHATSAPP FLOAT -->
-  <a href="https://wa.me/51999999999" class="whatsapp-float" target="_blank" aria-label="WhatsApp">
-    <i class="fab fa-whatsapp"></i>
-  </a>
+<!-- PORTFOLIO -->
+<section id="portfolio" class="portfolio container">
+  <h2 class="section__title">Portfolio</h2>
 
-  <!-- JS -->
-  <script src="slider.js"></script>
+  <div class="portfolio__grid">
 
+    <figure class="portfolio__item">
+      <img src="https://images.unsplash.com/photo-1557838923-2985c318be48?q=80&w=800&auto=format" alt="Campaña marketing" loading="lazy">
+      <figcaption>
+        <h3>Meta Ads</h3>
+        <p>+300% ROAS</p>
+      </figcaption>
+    </figure>
+
+    <figure class="portfolio__item">
+      <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?q=80&w=800&auto=format" alt="Branding" loading="lazy">
+      <figcaption>
+        <h3>Branding</h3>
+        <p>Identidad completa</p>
+      </figcaption>
+    </figure>
+
+    <figure class="portfolio__item">
+      <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=800&auto=format" alt="Marketing equipo" loading="lazy">
+      <figcaption>
+        <h3>Estrategia</h3>
+        <p>Escalamiento digital</p>
+      </figcaption>
+    </figure>
+
+  </div>
+</section>
+
+<!-- CONTACTO -->
+<section id="contacto" class="contacto container">
+  <h2 class="section__title">Contacto</h2>
+
+  <form action="mailer.php" method="POST" class="form">
+    <input type="text" name="nombre" placeholder="Nombre" required>
+    <input type="email" name="email" placeholder="Email" required>
+    <textarea name="mensaje" placeholder="Mensaje" required></textarea>
+    <button class="btn">Enviar mensaje</button>
+  </form>
+</section>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <p>© 2026 Promarketing Perú</p>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
